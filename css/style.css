@@ -435,12 +435,13 @@ body {
   }
 
   #showcase .content h2 {
-    font-size: 1.5rem;
-    width: 80%;
+    font-size: 2rem;
+    width: 100%;
   }
 
   #showcase .content p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    width: 100%;
   }
 
   #banner {
@@ -476,7 +477,7 @@ body {
   }
 
   #products .products-container .card img {
-    height: 400px;
+    height: 300px;
   }
 
   #contact {
@@ -496,6 +497,12 @@ body {
   #contact .contact-right {
     width: 100%;
     padding: 1rem;
+    text-align: center;
+  }
+ 
+  #contact .contact-right .form-wrapper {
+    padding: 2rem;
+    text-align: left;
   }
 
   #contact .contact-right h3{
